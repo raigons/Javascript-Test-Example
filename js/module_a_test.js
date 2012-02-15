@@ -23,3 +23,8 @@ test("Agora testando em português feliz =]", function(){
 	var obj = Objeto();
 	equal(4, obj.multiplicarPor(2), 'O valor esperado como resultado da multiplicação é 4');
 });
+
+test("Testar se a karen existe!",function(){
+	var Karen = {exist: true};
+	ok(Karen.exist, "Karen should exists");
+})
