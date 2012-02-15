@@ -7,8 +7,8 @@ test("testing module A inside a js file", function(){
 });
 
 test("Test an object property", function(){
-	var object = {"a": "property value"};
-	ok(object.hasOwnProperty("a"), "The object should have an attribute called 'a'");
+	var object = {"properti": "property value"};
+	ok(object.hasOwnProperty("property"), "The object should have an attribute called 'property'");
 });
 
 test("Agora testando em português feliz =]", function(){
