@@ -7,7 +7,7 @@ test("testing module A inside a js file", function(){
 });
 
 test("Test an object property", function(){
-	var object = {"properti": "property value"};
+	var object = {"property": "property value"};
 	ok(object.hasOwnProperty("property"), "The object should have an attribute called 'property'");
 });
 
